@@ -5,3 +5,5 @@ using namespace std;
 
 
  }
+
+  // answer = 6
