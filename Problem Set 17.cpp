@@ -68,4 +68,31 @@ cout << a << b << c << d << "\n";
   
   
 
+               else if (answer == "C" || answer == "c")
+	{
+		hints_used++;
+		system("cls");
+		cout << "Now you have chance to answer incorrectly. You will take 5 points for this question." << endl;
+		cout << "\t\t\t\t\tQ U E S T I O N  No. 10" << endl;
+		cout << "// คำถาม " << endl;
+		cout << "" << endl;
+		cout << "" << endl;
+		cout << "[1] คำตอบ " << endl;
+		cout << "[2] คำตอบ" << endl;
+		cout << "[3] คำตอบ" << endl;
+		cout << "[4] คำตอบ" << endl;
+		string answer;
+		cout << endl;
+		cout << "\t\t\t\t\tENTER YOUR CHOICE: ";
+		cin >> answer;
+		total_score += 5;
+		correct_answer += 1;
+		if (answer == "3")
+			cout << "C O R R E C T   A N S W E R !!!" << endl;
+		cout << "You got 5 points out of 5." << endl;
+		cout << endl;
+		system("pause");
+		system("cls");
+
+	}
 
