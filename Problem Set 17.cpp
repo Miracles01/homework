@@ -85,8 +85,8 @@ cout << a << b << c << d << "\n";
 		cout << endl;
 		cout << "\t\t\t\t\tENTER YOUR CHOICE: ";
 		cin >> answer;
-		total_score += 5;
-		correct_answer += 1;
+		//total_score += 5;
+		//correct_answer += 1;
 		if (answer == "3")
 			cout << "C O R R E C T   A N S W E R !!!" << endl;
 		cout << "You got 5 points out of 5." << endl;
